@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin-top: 6em;
+}
+
+.textos {
+  color: white;
+  font-size: 20pt;
+  top: 4em;
+  right: 1.5em;
+  font-family: "Urbanist";
+}
+span {
+  color: #6da5c0;
+}
+img {
+  width: 23em;
+  border-radius: 50%;
+  box-shadow: 27px 27px 54px #041d20, -27px -27px 54px #0a3f46;
+}
+
+.apresentacao {
+  border-radius: 45px;
+  background: #072e33;
+  box-shadow: 27px 27px 54px #052326, -27px -27px 54px #093a40;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: end;
+}
+/*Social */
+
+.container-social a {
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff80;
+  text-shadow: none;
+  background: transparent;
+  box-shadow: transparent;
+  border: 1px solid #ffffff80;
+  transition: 0.5s ease;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-social {
+  display: flex;
+  margin-top: 2em;
+  column-gap: 5px;
+}
+.container-social a:hover,
+.container-social a:focus {
+  color: #ffffff;
+  background: #00ffe1;
+  border: 1px solid #00ffe1;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #00ffe1, 0 0 20px #00ffe1, 0 0 50px #00ffe1,
+    0 0 100px #00ffe1;
+}

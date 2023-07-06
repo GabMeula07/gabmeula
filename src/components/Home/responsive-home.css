@@ -1,0 +1,23 @@
+@media screen and (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 4em;
+  }
+  img {
+    width: 30em;
+  }
+}
+@media screen and (max-width: 460px) {
+  img {
+    width: 25em;
+  }
+  .textos {
+    font-size: 14pt;
+  }
+}
+@media screen and (max-width: 380px) {
+  img {
+    width: 20em;
+  }
+}

@@ -1,0 +1,89 @@
+#Projetos {
+  background-color: transparent;
+  width: 87%;
+  height: 30em;
+  margin: 0 auto 10em auto;
+}
+
+#Projetos h2 {
+  font-size: 23pt;
+  font-family: "Urbanist";
+  color: #50e49a;
+}
+.projetos-card {
+  margin-top: 2em;
+  border-radius: 45px;
+  background: #072e33;
+  box-shadow: 27px 27px 54px #052326, -27px -27px 54px #093a40;
+}
+.projetos-card img {
+  width: 10em;
+  border-radius: 0px;
+  box-shadow: 0 0 0;
+}
+.projetos-card {
+  width: 32em;
+  display: flex;
+  column-gap: 1em;
+  padding: 1.5em;
+}
+.buttons {
+  margin: 3em auto;
+}
+
+.buttons a {
+  margin: 9px;
+  text-decoration: none;
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-size: 17pt;
+  font-family: "Urbanist";
+  font-weight: 500;
+  color: #ffffff80;
+  text-shadow: none;
+  background: transparent;
+  box-shadow: transparent;
+  border: 1px solid #ffffff80;
+  transition: 0.5s ease;
+  user-select: none;
+}
+.buttons a:hover {
+  color: #ffffff;
+  background: #00ffe1;
+  border: 1px solid #00ffe1;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #00ffe1, 0 0 20px #00ffe1, 0 0 50px #00ffe1,
+    0 0 100px #00ffe1;
+}
+.projetos-card p {
+  color: white;
+  font-family: "Urbanist";
+  font-size: 14pt;
+}
+
+.projetos-container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 450px) {
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 3em auto;
+  }
+  #Projeto {
+    height: 30em;
+    margin-bottom: 700px;
+    width: 10em;
+  }
+  .projetos-card img {
+    height: 19em;
+    margin: auto;
+  }
+  .projetos-card:last-child {
+    margin-bottom: 20em;
+  }
+}

@@ -1,0 +1,30 @@
+.contato {
+  width: 100%;
+  margin-top: 0px;
+  background-color: black;
+  color: white;
+  padding: 3em 0;
+  font-family: "Urbanist";
+}
+.contato h2 {
+  font-size: 3em;
+  margin-left: 10px;
+  margin-bottom: 1em;
+}
+.contato p {
+  font-size: 2em;
+  margin-left: 20px;
+}
+@media screen and (max-width: 1024px) {
+  .contato {
+    margin-top: 30em;
+  }
+}
+@media screen and (max-width: 420px) {
+  .contato {
+    margin-top: 48em;
+  }
+  .contato p {
+    font-size: 13pt;
+  }
+}

@@ -1,0 +1,66 @@
+#Sobre {
+  width: 87%;
+  margin: 12em auto 5em auto;
+  border-radius: 20px;
+  font-family: "urbanist";
+  padding: 20px;
+
+  background: #0c7075;
+  box-shadow: 40px 40px 28px #062529, -40px -40px 28px #08373d;
+}
+#Sobre h2 {
+  color: #50e49a;
+  font-size: 27pt;
+}
+#Sobre p {
+  color: white;
+  width: 70%;
+  margin-bottom: 2em;
+}
+
+#Sobre h3 {
+  color: #50e49a;
+  font-size: 20pt;
+}
+
+.cards {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 1.5em;
+  row-gap: 1em;
+}
+.card {
+  width: 10em;
+  max-width: 10em;
+  height: 15em;
+  border-radius: 20px;
+  margin-bottom: 2px;
+  background-color: #0f969c;
+  cursor: inherit;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease;
+}
+.cards svg {
+  font-size: 90px;
+  margin-bottom: 3px;
+  color: white;
+}
+.cards p {
+  text-align: center;
+}
+
+.card:hover {
+  color: #ffffff;
+  background: #00ffe1;
+  border: 1px solid #00ffe1;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #00ffe1, 0 0 20px #00ffe1, 0 0 50px #00ffe1,
+    0 0 100px #00ffe1;
+}

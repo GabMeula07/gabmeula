@@ -1,0 +1,29 @@
+header {
+  width: 100%;
+  height: 4em;
+  background-color: #05161a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  list-style: none;
+  display: flex;
+  column-gap: 1em;
+}
+nav li a {
+  color: #bde8fd;
+  font-family: "Urbanist";
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 13pt;
+  transition: all 0.4s ease;
+  padding: 10px 14px;
+  border-radius: 15px;
+}
+
+nav li a:hover {
+  background-color: white;
+  color: #05161a;
+}

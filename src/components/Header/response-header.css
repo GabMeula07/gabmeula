@@ -1,0 +1,24 @@
+@media screen and (max-width: 430px) {
+  header {
+    justify-content: space-around;
+    column-gap: 24px;
+  }
+  nav {
+    column-gap: 3px;
+  }
+  nav li a {
+    font-size: 14pt;
+  }
+}
+@media screen and (max-width: 360px) {
+  header {
+    justify-content: space-around;
+    column-gap: 4px;
+  }
+  nav {
+    column-gap: 0;
+  }
+  nav li a {
+    font-size: 14pt;
+  }
+}
